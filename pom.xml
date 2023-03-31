@@ -6,7 +6,7 @@
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	
-	<version>build2-SNAPSHOT</version> 
+	<version>0.0.2-SNAPSHOT</version> 
 	
 	<name>maven-web-application</name>
 
@@ -95,13 +95,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.82.132.64:8081/repository/build2-releases/</url>
+	      <url>http://54.82.132.64:8081/repository/pipeline-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.82.132.64:8081/repository/build2-snapshot/</url>
+	      <url>http://54.82.132.64:8081/repository/pipeline-releases/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
